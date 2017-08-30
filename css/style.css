@@ -735,6 +735,12 @@ span.ubicacion:hover{
 	position: absolute;
 	left: -100%;
 	}
+	.container-in , .derecha{
+  		  font-size: 12px;
+	}
+	.lista li a {
+		font-size: 13px;
+	}
 
 }
 @media only screen and (max-width: 500px) {
@@ -744,6 +750,9 @@ span.ubicacion:hover{
 	}
 	.about .container {
 		top: 13%;
+	}
+		.container-in , .derecha{
+  		  font-size: 11px;
 	}
 }
 
@@ -755,6 +764,9 @@ span.ubicacion:hover{
 	}
 	.about .container {
 		top: 8%;
+	}
+	.container-in , .derecha{
+  		  font-size: 8px;
 	}
 }
 
@@ -769,6 +781,10 @@ span.ubicacion:hover{
 	.about .container {
 		top: 5%;
 	}
+	.container-in , .derecha{
+  		  font-size: 7px;
+	}
+	
 }
 @media only screen and (max-width: 350px) {
 	nav img {
@@ -788,11 +804,13 @@ span.ubicacion:hover{
 	.contacto .container-contacto h1.titulo{
 		margin-top: 50px;
 	}
+
 }
 @media only screen and (max-width: 324px) {
 	nav img {
 	    padding-top: 7px;
 	    width: 115px;
 	}
+
 }
 /* Fin de Media Queries de IN */
