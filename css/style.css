@@ -772,7 +772,9 @@ span.ubicacion:hover{
 	.container-in , .derecha{
   		  font-size: 8px;
 	}
-
+	.lista li a {
+		font-size: 10px;
+	}
 }
 
 @media only screen and (max-width: 370px) {
@@ -789,7 +791,9 @@ span.ubicacion:hover{
 	.container-in , .derecha{
   		  font-size: 7px;
 	}
-	
+	.lista li a {
+		font-size: 9px;
+	}
 	
 }
 @media only screen and (max-width: 350px) {
