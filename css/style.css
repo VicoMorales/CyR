@@ -729,21 +729,40 @@ span.ubicacion:hover{
 	}
 	.about .tab{
 		width: 100%;
+		left: 0;
 	}
+	.about .play{
+	position: absolute;
+	left: -100%;
+	}
+
 }
 @media only screen and (max-width: 500px) {
+	nav img {
+	    padding-top: 7px;
+	    width: 150px;
+	}
 	.about .container {
 		top: 13%;
 	}
 }
 
 @media only screen and (max-width: 450px) {
+	
+	nav img {
+	    padding-top: 7px;
+	    width: 145px;
+	}
 	.about .container {
 		top: 8%;
 	}
 }
 
 @media only screen and (max-width: 370px) {
+	nav img {
+	    padding-top: 7px;
+	    width: 140px;
+	}
 	.presentacion .titulo h1 {
 		font-size: 40px;
 	}
@@ -752,6 +771,10 @@ span.ubicacion:hover{
 	}
 }
 @media only screen and (max-width: 350px) {
+	nav img {
+	    padding-top: 7px;
+	    width: 135px;
+	}
 	.presentacion .titulo h1 {
 		font-size: 35px;
 	}
@@ -767,6 +790,9 @@ span.ubicacion:hover{
 	}
 }
 @media only screen and (max-width: 324px) {
-
+	nav img {
+	    padding-top: 7px;
+	    width: 115px;
+	}
 }
 /* Fin de Media Queries de IN */
