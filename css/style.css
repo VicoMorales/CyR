@@ -738,7 +738,7 @@ span.ubicacion:hover{
 	.container-in , .derecha{
   		  font-size: 12px;
 	}
-	.lista li a {
+		.lista li a {
 		font-size: 13px;
 	}
 
@@ -754,6 +754,10 @@ span.ubicacion:hover{
 		.container-in , .derecha{
   		  font-size: 11px;
 	}
+		.lista li a {
+		font-size: 11px;
+	}
+
 }
 
 @media only screen and (max-width: 450px) {
@@ -768,6 +772,7 @@ span.ubicacion:hover{
 	.container-in , .derecha{
   		  font-size: 8px;
 	}
+
 }
 
 @media only screen and (max-width: 370px) {
@@ -784,6 +789,7 @@ span.ubicacion:hover{
 	.container-in , .derecha{
   		  font-size: 7px;
 	}
+	
 	
 }
 @media only screen and (max-width: 350px) {
@@ -803,6 +809,9 @@ span.ubicacion:hover{
 	}
 	.contacto .container-contacto h1.titulo{
 		margin-top: 50px;
+	}
+	.lista li a {
+		font-size: 10px;
 	}
 
 }
